@@ -27,10 +27,10 @@ http://localhost:3000/
 
 ## Express生成器
 $ npm install express-generator -g  
-$ express -h
-$ express myapp
-$ cd myapp 
-$ npm install 
-linux: $ DEBUG=myapp npm start  
+$ express -h  
+$ express myapp  
+$ cd myapp   
+$ npm install   
+linux: $ DEBUG=myapp npm start    
 window: > set DEBUG=myapp & npm start  
 http://localhost:3000/ 

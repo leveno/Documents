@@ -1,4 +1,4 @@
-# 编写此文档的意义是为了熟悉整个项目开发过程
+## 编写此文档的意义是为了熟悉整个项目开发过程
 
 $ mkdir myapp  
 $ cd myapp  
@@ -23,4 +23,14 @@ $ touch app.js
 ```
 
 $ node app.js  
-打开浏览器：localhost:3000  
+http://localhost:3000/ 
+
+## Express生成器
+$ npm install express-generator -g  
+$ express -h
+$ express myapp
+$ cd myapp 
+$ npm install 
+linux: $ DEBUG=myapp npm start  
+window: > set DEBUG=myapp & npm start  
+http://localhost:3000/ 

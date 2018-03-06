@@ -8,8 +8,9 @@ ssh-keygen -t rsa -C "857596898@163.com"
 ### 把密匙复制到github  
 
 
-## 把本地项目上传到github  
-mkdir Test  
+## 把本地项目上传到github  
+在github里创建仓库  
+mkdir Test  
 cd Test  
 echo "# myweb" >> README.md  
 git init  

@@ -19,4 +19,23 @@
 ## 代码区块
 缩进 4 个空格或是 1 个制表符 
     这是缩进
-        缩进去 
+        缩进去 
+## 连接
+This is [an example](http://example.com/ "Title") inline link. 
+[This link](http://example.net/) has no title attribute. 
+## 强调
+*single asterisks*
+
+_single underscores_
+
+**double asterisks**
+
+__double underscores__
+## 代码
+Use the `printf()` function.
+## 图片
+![Alt text](/path/to/img.jpg)
+
+![Alt text](/path/to/img.jpg "Optional title")
+## 反斜线
+\*literal asterisks\*
